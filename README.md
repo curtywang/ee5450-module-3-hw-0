@@ -14,11 +14,14 @@ To get started:
 1. Notice that I have used an interface-based design for this particular
    assignment.  `SegmenterInterface` is a class that requires its derived
    classes (meaning class that implement the interface) to implement its 
-   methods.  The gist of each method is written as docstrings.
+   methods.  The gist of each method is written as docstrings.  Because the 
+   base interface has docstrings, you can just copy/paste the docstrings 
+   over to your implementations of those functions.
    
 2. Implement the `PsyduckSegmenter` class first.  This is simpler because
-   there is only one test image that contains only one Psyduck.  Implement
-   the functions in order:
+   there is only one test image that contains only one Psyduck.  I recommend 
+   to tmplement the functions in order (feel free to implement any helper 
+   functions needed):
    
     a. `enhance_image()` to perform CLAHE on the each channel.
    
