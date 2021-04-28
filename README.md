@@ -11,15 +11,15 @@ machine learning over the next lessons and assignment.
 
 To get started:
 
-1. Notice that I have used an interface-based design for this particular
+1. I have used an interface-based design for this particular
    assignment.  `SegmenterInterface` is a class that requires its derived
    classes (meaning class that implement the interface) to implement its 
    methods.  The gist of each method is written as docstrings.  Because the 
    base interface has docstrings, you can just copy/paste the docstrings 
    over to your implementations of those functions.
    
-2. Implement the `PsyduckSegmenter` class first.  This is simpler because
-   there is only one test image that contains only one Psyduck.  I recommend 
+2. Implement the `PikachuSegmenter` class first.  This is simpler because
+   the test images contains only one Pikachu.  I recommend 
    to tmplement the functions in order (feel free to implement any helper 
    functions needed):
    
@@ -37,7 +37,7 @@ To get started:
        the bounding boxes (list of tuple of: x_left, y_top, width, height) 
        that contain the object desired.
    
-3. Once you have the `PsyduckSegmenter` working, try your hand at the `PikachuSegmenter`.
+3. Once you have the `PikachuSegmenter` working, try your hand at the `PsyduckSegmenter`.
 
 ## Fair Use Notice
 

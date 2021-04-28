@@ -61,6 +61,9 @@ class PsyduckSegmenter(SegmenterInterface):
 
 
 class PikachuSegmenter(SegmenterInterface):
+    """
+    Segment Pikachus within a given BGR image
+    """
     def __init__(self):
         self.THRESHOLD = (10, 10, 10, 10)  # TODO: replace with the BGRK values you're looking for
 
